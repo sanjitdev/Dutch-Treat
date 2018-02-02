@@ -13185,12 +13185,15 @@
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\anhvu\\Documents\\GitHub\\vCanvas\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
+      "projectUniqueName": "C:\\Users\\anhvu\\Documents\\GitHub\\Dutch-Treat\\DutchTreat\\DutchTreat.csproj",
       "projectName": "DutchTreat",
-      "projectPath": "C:\\Users\\anhvu\\Documents\\GitHub\\vCanvas\\DutchTreat\\DutchTreat\\DutchTreat.csproj",
+      "projectPath": "C:\\Users\\anhvu\\Documents\\GitHub\\Dutch-Treat\\DutchTreat\\DutchTreat.csproj",
       "packagesPath": "C:\\Users\\anhvu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anhvu\\Documents\\GitHub\\vCanvas\\DutchTreat\\DutchTreat\\obj\\",
+      "outputPath": "C:\\Users\\anhvu\\Documents\\GitHub\\Dutch-Treat\\DutchTreat\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13220,26 +13223,26 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "AutoMapper": {
-            "target": "Package",
-            "version": "[6.2.2, )"
-          },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
-            "version": "[3.2.0, )"
-          },
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "[2.0.0, )"
-          },
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "[2.0.0, )",
-            "autoReferenced": true
+            "version": "3.2.0"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
-            "version": "[2.0.0, )"
+            "version": "2.0.0"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "2.0",
+            "autoReferenced": true
+          },
+          "AutoMapper": {
+            "target": "Package",
+            "version": "6.2.2"
+          },
+          "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "2.0.0"
           }
         },
         "imports": [
