@@ -3,7 +3,7 @@
         "Favorite":"blue"
     },
     "ConnectionStrings":{
-        "DutchConnectionString":"server=VTA\\SQLEXPRESS;Database=DutchTreatDb;Integrated Security=true;MultipleActiveResultSets=true"
+        "DutchConnectionString":"server=localhost;Database=DutchTreatDb;Integrated Security=true;MultipleActiveResultSets=true"
     },
     "Logging":{
         "LogLevel":{
